@@ -11,7 +11,8 @@ const ScrollArea = ({ children }) => {
     const scrollStyle = {
       height: '100%',
       overflowY: 'auto',
-      overflowX: 'hidden'
+      overflowX: 'hidden',
+      padding: '0 2px 0 0'
     };
   
     return (
